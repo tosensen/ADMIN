@@ -1,0 +1,436 @@
+@import url('http://fonts.cdnfonts.com/css/averta-standard');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Averta Standard', sans-serif;
+    /* font-weight: 400; */
+}
+
+img{
+    /* vertical-align: middle; */
+}
+
+/* home styling starts here */
+
+/* HERO SECTION STYLING */
+.hero-container{
+    height: 800px;
+    background-image: url(./imgforhome/hero-bg.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+}
+
+.logo-img1{
+    display: flex;
+    margin: auto;
+    padding-top: 70px;
+    margin-bottom: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-main{
+    max-width: 700px;
+    text-align: center;
+    /* display: flex; */
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: auto;
+    padding: 10px;
+}
+
+.hero-main h2{
+    font-size: 32px;
+    text-align: center;
+    color: #514949;
+    line-height: 48px;
+    opacity: 0.9;
+    margin-bottom: 40px;
+}
+.hero-main p{
+    margin-bottom: 70px;
+    line-height: 24px;
+    color: #514949;
+}
+
+.hero-main a{
+    text-decoration: none;
+    color: #e7332b;
+}
+
+
+section .one{
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.btn{
+   color: #fff;
+   /* width: 300px; */
+}
+
+.btn button{
+    font-size: 15px;
+    height: 48px;
+    /* width: 220px; */
+    border-radius: 0px;
+    outline: none;
+    color: #fff;
+    /* border: transparent; */
+    padding: 0px 30px;
+    margin: 10px 10px;
+}
+
+.break{
+    display: none;
+}
+
+.btn a:last-child button{
+    color: #e7332b;
+}
+
+.btn a:last-child button:hover{
+    color: white;
+}
+
+
+.red-filled{
+    border: transparent;
+    background-color: #e7332b;
+}
+
+.red-filled:hover{
+    background-color: #fff;
+    border: 1px solid #e7332b;
+    color: #e7332b;
+}
+
+.red-outlined{
+    /* color: orangered; */
+    border: 1px solid #e7332b;
+    outline: #e7332b;
+    background-color: #fff;
+}
+
+.red-outlined:hover{
+    background-color: #e7332b;
+    color: #fff;
+
+}
+
+section.one{
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.wrapper{
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.xxx{
+    color: #e7332b;
+    font-size: 15px;
+    margin-top: 140px;
+}
+
+.motto{
+    color: #514949;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 9px;
+    margin-bottom: 65px;
+}
+
+div{
+    /* display: block; */
+}
+  
+.cards{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1240px !important;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: -15px;
+    margin-right: -15px;
+    /* margin-bottom: 40px; */
+}
+
+.col{
+    z-index: 1;
+    position: relative;
+    max-width: 31.2%;
+    flex: 0 0 31.2%;
+    /* margin-left: 15px; */
+    margin-right: 15px;
+    text-align: start;
+    margin: 0;
+}
+
+.m-15{
+    margin:0 1.8rem;
+}
+
+.col-card{
+    width: 100%;
+    /* height: 511px; */
+    background-color: #fffafa;
+    padding: 61px 47px 82px 36px;
+}
+
+.col-card img{
+    margin-bottom: 48px;
+}
+.dotimg{
+    width: 100%;
+    position: absolute;
+    left: -120px;
+    top: -75px;
+    z-index: -1;
+}
+
+.col-card p{
+    line-height: 24px;
+    opacity: 0.9;
+    font-size: 16px;
+    color: #514949;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.col-card h3 a{
+    text-decoration: none;
+    color: #e7332b;
+    text-align: left;
+    font-weight: lighter;
+    opacity: 0.9;
+}
+
+.dotimg2{
+    width: 100%;
+    position: absolute;
+    right: -120px;
+    top: -75px;
+    z-index: -1;
+}
+
+/* FOOTER STYLING STARTS HERE */
+.footer{
+    margin-top: 215px;
+    max-width: 1240px !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 56px;
+    padding: 20px;
+    text-align: left;
+}
+
+.footer h3{
+    color: #514949;
+    font-weight: bold;
+    line-height: 24px;
+    margin-bottom: 0.5rem;
+
+}
+
+.second a{
+    text-decoration: none;
+    color: #e7332b;
+}
+
+.second p{
+    margin-bottom: 1rem;
+}
+
+.third p{
+    font-size: 14px;
+    color: #514949;
+    opacity: 0.9;
+    line-height: 20px;
+    margin-bottom: 1rem;
+}
+
+.third a{
+    color: #e7332b;
+    text-decoration: none;
+}
+
+.fourth img{
+    width: 18px;
+    margin-right: 5px;
+}
+
+.line{
+    margin: 1rem;
+}
+
+.footer hr{
+    opacity: 0.2;
+    border: 0.7px solid #514949;
+}
+hr{
+    overflow: visible;
+}
+.copyright{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.copyright p{
+    color: #514949;
+    line-height: 24px;
+    font-weight: bold;
+    margin-top: 32px;
+    padding-bottom: 95px;
+    margin-bottom: 1rem;
+}
+
+/* FOOTER STYLING ENDS HERE */
+
+/* MEDIA QUERIES FOR HOME PAGE STARTS HERE */
+@media screen and (max-width:1199px) {
+    .dotimg, .dotimg2{
+        display: none;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .row{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .col{
+        /* width: 100%; */
+        /* flex: 0 0 100%; */
+        max-width: 100%;
+        margin-left: 15px;
+        margin-bottom: 48px;
+        margin-right: 15px;
+        /* height: auto; */
+        /* padding-bottom: 15px; */
+    }
+}
+@media screen and (max-width:768px) {
+    .logo-img1{
+        padding-top: 100px;
+    }
+
+    /* .btn button{
+        margin: 10px 50px;
+    } */
+    .btn{
+        display: block;
+        margin: auto;
+    }
+
+    .break{
+        display: block;
+    }
+    
+    .footer-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center; 
+    }
+
+    .first img{
+        margin-bottom: 15px;
+        width: 150px;
+    }
+
+    .footer h3{
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+    .footer h3 a p{
+    margin-bottom: 1rem;
+    }
+
+    .copyright{
+        text-align: center;
+    }
+
+    
+}
+
+/* MEDIA QUERIES FOR HOME PAGE ENDS HERE  */
+
+/* TRAINING PAGE STYLING STARTS HERE */
+#container{
+
+}
+
+header{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    position: fixed;
+    z-index: 1100;
+    top: 0px;
+    left: auto;
+    right: 0;
+}
+
+.nav{
+    min-height: 65px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0 !important;
+}
+
+.nav-content{
+    display: flex;
+    align-items: center;
+}
+
+.nav-content a{
+    margin-right: 2rem;
+    
+
+}
+
+.nav-links{
+    position: relative;
+    letter-spacing: 0.02857em;
+    min-width: 64px;
+    padding: 6px 8px;
+    color: #514949;
+    font-size: 18px;
+    line-height: 24px;
+}
+/* TRAINING PAGE STYLING ENDS HERE */
