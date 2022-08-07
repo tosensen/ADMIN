@@ -1,0 +1,290 @@
+.hide{
+    display: none;
+}
+.footer_rule{
+    display: none;
+}
+
+
+@media (max-width: 1150px) {
+    /* .hero_img{
+        position: absolute;
+    } */
+    .home_underline, .impact_underline, .why_us_underline{
+        display: none;
+    }
+    .nav_list{
+        width: 55vw;
+    }
+    .talent_hero_line{
+        display: none;
+    }
+    .hero_section{
+        height: 100%;
+    }
+    .hero_content_wrapper{
+        grid-template-columns: 1fr;
+    }
+    .hero_text{
+        text-align: center;
+    }
+    .hero_txt_sm{
+        width: 100%;
+        padding: 0 15%;
+    }
+    .hero_img{
+        display: flex;
+        justify-content: center;
+    }
+    .main_hero_img {
+        width: 70%;
+    }
+    .impact_img img{
+        width: 90%;
+    }
+    .tags_section{
+        padding: 10vh 5vh;
+    }
+    .tag_line{
+        display: none;
+    }
+    .wrapper1{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .wrapper2{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+    }
+    .hide_sm{
+        display: none;
+    }
+    .hide{
+        display: block;
+    }
+    .why_us_card_wrapper_lg{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .why_us_card_wrapper_sm{
+        grid-template-columns: 1fr;
+        width: 85vw;
+    }
+    .large_sm{
+        width: 100%;
+    }
+    .rope{
+        top: 40%;
+    }
+    .why_us_heading{
+        font-size: 32px;
+        margin-bottom: 5vh;
+    }
+    .needed_skills{
+        width: 90%;
+    }
+    .needed_talent{
+        width: 90%;
+    }
+    .tag_section_wrapper{
+        margin-left: 2vw;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .impact_section{
+        height: 100%;
+    }
+    .impact_section_wrapper{
+        grid-template-columns: 1fr;
+        gap: 4vh;
+    }
+    .impact_img{
+        justify-content: center;
+    }
+    .impact_img img{
+        width: 80%;
+        align-self: center;
+    }
+    .all_impact_txt{
+        width: 80vw;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .countries_impacted{
+        justify-content: space-around;
+    }
+    .impact_heading{
+        width: 100%;
+    }
+    .impact_heading{
+        text-align: center;
+    }
+
+}
+
+
+@media (max-width: 900px) {
+    .needed_skills{
+        width: 90%;
+    }
+    .needed_talent{
+        width: 90%;
+    }
+    .tag_section_wrapper{
+        margin-left: 0;
+    }
+}
+@media (max-width: 880px) {
+    .hidden_mobile{
+        display: none;
+    }
+    .nav_list{
+        justify-content: flex-end;
+    }
+    /* .all_social{
+        width: 30vw;
+    } */
+    .all_social img{
+        width: 5vw;
+    }
+}
+
+@media (max-width: 840px) {
+    .thick_hero{
+        right: 10%;
+    }
+}
+
+
+@media (max-width: 750px) {
+    .wrapper1{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .wrapper2{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .card{
+        padding: 3vh 5vw;
+    }
+    .rope{
+        width: 30vw;
+    }
+}
+
+@media (max-width: 680px) {
+    .all_social img{
+        width: 7vw;
+    }
+    .rope{
+        top: 45%;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .why_us_card_wrapper_lg{
+        grid-template-columns: 1fr;
+    }
+    .rope{
+        top: 23%;
+    }
+    .needed_skills{
+        width: 100%;
+        text-align: center;
+        /* font-size: 2rem; */
+    }
+    .needed_talent{
+        width: 100%;
+    }
+    .wrapper1{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .wrapper2{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .rope{
+        width: 40%;
+        top: 42%;
+    }
+    .tags_section{
+        padding-left: 5vw;
+    }
+    .needed_skills{
+        font-size: 28px;
+        text-align: left;
+    }
+    .needed_talent{
+        font-size: 28px;
+        text-align: left;
+    }
+    .footer_links_wrapper{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer_logo{
+        display: flex;
+        justify-content: center;
+    }
+    .all_social{
+        display: flex;
+        justify-content: center;
+        margin-top: 3vh;
+    }
+    .copyright{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .footer_rule{
+        display: block;
+        width: 90%;
+        margin: 2vh auto;
+    }
+    .all_social{
+        gap: 2vw;
+        padding: 2vh;
+    }
+    .all_social img {
+        width: 9vw;
+    }
+    .all_impact_txt{
+        text-align: left;
+    }
+    .impact_heading{
+        font-size: 28px;
+        text-align: left;
+    }
+    .hero_txt_sm{
+        width: 97%;
+        padding: 0;
+    }
+    .main_hero_img{
+        width: 100%;
+    }
+    .hero_hire{
+        font-size: 1.6rem;
+        padding: 1vh 4vw;
+    }
+    .join_talent_pool{
+        font-size: 1.6rem;
+        padding: 1vh 4vw;
+        margin-left: 1vw;
+    }
+    .hero_content_wrapper{
+        gap: 5vh;
+    }
+    .impact_img img{
+        width: 100%;
+    }
+    .impact_section_wrapper{
+        gap: 7vh;
+    }
+}
+
+@media (max-width: 450px) {
+    .hero_hire{
+        margin-bottom: 2vh;
+    }
+}

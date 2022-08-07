@@ -1,0 +1,371 @@
+
+@font-face {
+    font-family: Averta;
+    src: url(https://res.cloudinary.com/dafsch2zs/raw/upload/v1596618987/Zuri%20Landing/AvertaDemoPECuttedDemo-Regular_dghpn7.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    overflow-x: hidden;
+}
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+.colored{
+    color: rgb(231, 51, 43);
+}
+
+
+/* Nav */
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: white;
+    z-index: 200;
+}
+.nav_box{
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    padding: 4vh 2vw;
+    margin: 0 auto;
+}
+.nav_list{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 40vw;
+    background-color: transparent!important;
+    color: #585757!important;
+    font-family: Graphik !important;
+    font-size: 18px;
+    align-items: center;
+    align-content: center;    
+    /* color: #161617!important; */
+    position: relative;
+}
+.hire_talents{
+    padding: 1vh 2vw;
+    background: rgb(231, 51, 43);
+    color: white;
+    font-size: 1rem;
+    border: 0;
+    border-bottom-right-radius: 0.4rem;
+}
+.home_underline{
+    position: absolute;
+    top: -3vh;
+    left: 1.5vw;
+    font-size: 2rem;
+    /* bottom: -2vh; */
+    color: rgb(231, 51, 43);
+    opacity: 0;
+}
+.impact_underline{
+    position: absolute;
+    top: -3vh;
+    left: 9.7vw;
+    font-size: 2rem;
+    /* bottom: -2vh; */
+    color: rgb(231, 51, 43);
+    opacity: 0;
+}
+.why_us_underline{
+    position: absolute;
+    top: -3vh;
+    left: 18.5vw;
+    font-size: 2rem;
+    /* bottom: -2vh; */
+    color: rgb(231, 51, 43);
+    opacity: 0;
+}
+.show{
+    opacity: 100;
+}
+
+
+
+
+
+
+/* Hero */
+.hero_section{
+    height: 80vh;
+    margin-top: 30vh;
+}
+.hero_content_wrapper{
+    display: grid;
+    grid-template-columns: 60fr 40fr;
+    width: 85vw;
+    gap: 2vw;
+    margin: 2vh auto;
+    align-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+.hero_img{
+    position: relative;
+}
+.talent_hero_line{
+    position: absolute;
+    top: 60%;
+    width: 15vw;
+    right: -6.7vw;
+    z-index: -5;
+}
+.main_hero_img{
+    width: 90%;
+    z-index: 40;
+}
+.hero_heading{
+    color: #161617 ;
+    font-family: Graphik;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 49px;
+    margin-bottom: 3vh;
+    position: relative;
+}
+.thick_hero{
+    position: absolute;
+    right: 15vw;
+    top: 3vh;
+}
+.hero_txt_sm{ 
+    width: 78% ;
+    color: #787878!important;
+    font-family: Graphik!important;
+    font-size: 19px!important;
+    font-weight: 400;
+    line-height: 27px;
+}
+.hero_btn_box{
+    margin: 2vh 0;
+}
+.hero_hire{
+    padding: 1vh 2vw;
+    background: rgb(231, 51, 43);
+    color: white;
+    font-size: 1rem;
+    border: 0;
+    border-bottom-right-radius: 0.4rem;
+}
+.join_talent_pool{
+    background-color: #585858!important;
+    padding: 1vh 2vw;
+    color: white;
+    font-size: 1rem;
+    border: 0;
+    border-bottom-right-radius: 0.4rem;
+}
+
+
+
+/* Impact section */
+.all_impact_txt{
+    width: 35vw;
+}
+.impact_section{
+    background-image: url(images/bgsection2.063bd869082548bafa74.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.impact_section_wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 85vw;
+    margin: 2vh auto;
+    padding: 15vh 0;
+}
+.impact_heading{
+    font-size: 3rem;
+    width: 40vw;
+    line-height: 130%;
+    margin-bottom: 4vh;
+    font-size: 40px;
+}
+.impact_img{
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    justify-content: flex-end;
+}
+.impact_img img{
+    width: 65%;
+}
+.countries_impacted{
+    display: flex;
+    gap: 1vw;
+    box-sizing: content-box;
+    margin-top: 3vh;
+}
+.country{
+    background-color: white;
+    padding: 1.5vh;
+    border-radius: 0.4rem;
+}
+.impact_stats{
+    color: #787878;
+    font-family: Graphik;
+    font-size: 19px;
+    font-weight: 750 ;
+    margin-bottom: 1vh;
+}
+.country_placed{
+    color: #787878;
+    font-family: Graphik;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+
+
+
+/* Tag section */
+.tags_section{
+    padding: 10vh;
+}
+.tag_section_wrapper{
+    width: 90vw;
+    margin-left: 3vw;
+}
+.tag_box{
+    margin: 8vh 0;
+    position: relative;
+}
+.needed_skills{
+    font-size: 3rem;
+    width: 40vw;
+    line-height: 49px!important;
+    margin-bottom: 4vh;
+}
+.tag_line{
+    position: absolute;
+    top: 4vh;
+    right: 3vw;
+}
+.needed_talent{
+    font-size: 3rem;
+    width: 40vw;
+    line-height: 49px!important;
+    margin-bottom: 4vh;
+}
+.btn_wrapper{
+    display: flex;
+    gap: 1vw;
+    margin: 2vh 0;
+}
+.tag_btn{
+    background-color: white;
+    padding: 1.5vh 2vw;
+    border: 0;
+    font-size: 1.1rem;
+    border-radius: 0.3rem;
+    color: #787878!important;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.116);
+    transition: 0.5s all;
+    z-index: 20;
+}
+.tag_btn:hover{
+    transform: translateY(-2vh);
+}
+
+
+
+/* ?Why us  */
+.why_hire_us{
+    position: relative;
+}
+.why_us_heading{
+    text-align: center;
+    padding: 2vh 0;
+    font-size: 32px;
+    margin-bottom: 4vh;
+}
+.why_hire_us{
+    background-color: rgb(255, 248, 229);
+    padding: 10vh 0 ;
+}
+.why_us_card_wrapper_lg{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 85vw;
+    margin: 2vh auto;
+    grid-gap: 2vw;
+}
+.why_us_card_wrapper_sm{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 55vw;
+    margin: 4vh auto;
+    grid-gap: 2vw;
+    margin-bottom: 8vh;
+}
+.card{
+    background-color: white;
+    border-bottom-right-radius: 1.5rem;
+    color: #787878!important;
+    padding: 8vh 2vw;
+    text-align: center;
+    z-index: 50;
+}
+.card:hover{
+    background-color: black;
+    color: #fff !important;
+}
+.card_img{
+    margin-bottom: 2vh;
+}
+.rope{
+    position: absolute;
+    left: 0;
+    top: 52%;
+}
+.why_hire_btn{
+    text-align: center;
+    padding: 5vh auto;
+}
+
+
+
+
+/* Footer */
+footer{
+    background-color: rgb(22, 22, 23);
+    color: white;
+    padding: 6vh 0;
+}
+.footer_links_wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    margin: 5vh auto;
+}
+.all_social img{
+    width: 3vw;
+    height: 5vh;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    margin: 2vh auto;
+}
+
+
