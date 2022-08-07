@@ -13,9 +13,9 @@ body{
     /* font-weight: 400; */
 }
 
-img{
+
     /* vertical-align: middle; */
-}
+
 
 /* home styling starts here */
 
@@ -154,9 +154,8 @@ section.one{
     margin-bottom: 65px;
 }
 
-div{
     /* display: block; */
-}
+
   
 .cards{
     width: 100%;
@@ -386,9 +385,7 @@ hr{
 /* MEDIA QUERIES FOR HOME PAGE ENDS HERE  */
 
 /* TRAINING PAGE STYLING STARTS HERE */
-#container{
 
-}
 
 header{
     padding-top: 15px;
